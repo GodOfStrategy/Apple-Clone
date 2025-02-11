@@ -1,0 +1,158 @@
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+/* Reset some default styles */
+body, h1, h2, h3, p, ul {
+   margin: 0;
+   padding: 0;
+}
+
+
+body{
+   font-family: "Roboto", serif; /*Apply google font */
+   line-height: 1.6;
+   color: #1d1d1f;
+   background-color: #f5f5f7;
+}
+/* Top Navigation header */
+.top-nav{
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    position: relative;
+    z-index: 10;
+}
+ 
+ 
+.top-nav .logo i{
+    font-size: 24px;
+    color: #fff;
+
+}
+ 
+ 
+.nav-menu ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+ 
+ 
+ 
+ 
+.nav-menu ul li{
+    margin-left: 20px;
+    position: relative;
+}
+ 
+ 
+ 
+ 
+.nav-menu ul li a{
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+}
+
+/* Hero Section */
+.hero-section {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.hero-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    filter: brightness(0.3);
+}
+ 
+ 
+.hero-text-card{
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(12px);
+    padding: 30px 80px;
+    border-radius: 20px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    margin-bottom: 40px;
+    max-width: 90%;
+}
+ 
+ 
+.hero-text-card h1{
+    font-size: 3rem;
+    margin-bottom: 10px;
+    color: #fff;
+    font-weight: 700;
+}
+.hero-text-card p{
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #fff;
+    font-weight: 500;
+}
+.hero-text-card ul{
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 10px;
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: 250;
+}
+
+.hero-text-card ul li {
+    margin-bottom: 10px;
+}
+
+.hero-buttons{
+    margin-top: 20px;
+}
+ 
+ 
+.hero-buttons a{
+    margin-right: 10px;
+    margin-top: 15px;
+    padding: 12px 25px;
+    background-color: #0071e3;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3 ease;
+    font-weight: 500;
+}
+ 
+.hero-buttons a:hover{
+    background-color: #419cf7;
+}
+
+.products{
+    margin-top: 10px;
+    color: #1d1d1f;
+}
+.ipadair{
+    margin-left: -1px;
+}
+.iphone14{
+    margin-left: -990px;
+    margin-top: -430px;
+}
+.hero-text-card h1{
+    color: #1d1d1f;
+}
+.iphonese{
+    margin-left: 825px;
+    margin-top: -445px;
+}
